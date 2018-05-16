@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="34" tests="0" failures="0" errors="1">
+   <testsuite name="Test Suites" tests="0" failures="0" errors="1" time="34" timestamp="2018-05-15 10:17:59" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_101757"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_101757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="462049cf93c6012cdf02b9396cce8030"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC3" classname="Test Cases/TC1/TC3" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC1/TC3 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean) values: [TestObject - 'Object Repository/Object_Active member/btn_edit', ...]
+Possible solutions: modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean), modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-05-15 10:17:59 - [TEST_CASE][ERROR] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean) values: [TestObject - 'Object Repository/Object_Active member/btn_edit', ...]
+Possible solutions: modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean), modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+
+2018-05-15 10:17:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-15 10:17:59 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up
+
+2018-05-15 10:17:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 10:18:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 10:18:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:18:08 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:18:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:18:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:18:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:18:08 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.17' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:18:08 - [MESSAGE][PASSED] - Keys 'thaotle1.17' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:18:08 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:18:09 - [MESSAGE][PASSED] - Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:18:09 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.17@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:18:09 - [MESSAGE][PASSED] - Keys 'thaotle1.17@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:18:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:18:09 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:18:09 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:18:09 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:18:09 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:18:09 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:18:11 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-15 10:18:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-15 10:18:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-15 10:18:11 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-15 10:18:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-15 10:18:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-15 10:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-15 10:18:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:18:13 - [TEST_STEP][PASSED] - setText: Text 'thaotle1.17' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:18:13 - [MESSAGE][PASSED] - Text 'thaotle1.17' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:18:13 - [TEST_STEP][PASSED] - Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)): Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-15 10:18:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-15 10:18:13 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:18:13 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:18:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:18:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-15 10:18:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-15 10:18:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-15 10:18:14 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Login: Test Cases/TC1/Common TC to Login
+
+2018-05-15 10:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:18:15 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:18:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:18:15 - [TEST_STEP][PASSED] - setText: Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:18:15 - [MESSAGE][PASSED] - Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:18:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:18:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-15 10:18:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-15 10:18:19 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-15 10:18:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:18:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:18:19 - [TEST_STEP][PASSED] - waitForElementNotVisible: Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-15 10:18:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-15 10:18:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/i_member' is clicked on
+
+2018-05-15 10:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/i_member' is clicked on
+
+2018-05-15 10:18:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-15 10:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-15 10:18:31 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:18:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:18:31 - [TEST_STEP][PASSED] - Statement - new_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Active member/btn_edit), "xpath", "equals", "//div[contains(text(),'", username, "')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]", false): Finding Test Object with id 'Object Repository/Object_Active member/btn_edit']]></system-out>
+         <system-err><![CDATA[2018-05-15 10:17:59 - [TEST_CASE][ERROR] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean) values: [TestObject - 'Object Repository/Object_Active member/btn_edit', ...]
+Possible solutions: modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean), modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 10:17:59 - [TEST_SUITE][ERROR] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean) values: [TestObject - 'Object Repository/Object_Active member/btn_edit', ...]
+Possible solutions: modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean), modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-05-15 10:17:59 - [TEST_SUITE][ERROR] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean) values: [TestObject - 'Object Repository/Object_Active member/btn_edit', ...]
+Possible solutions: modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean), modifyObjectProperty(com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

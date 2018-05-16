@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-16 14:52:24,2018-05-16 14:52:39,14.427s,PASSED
+,,,,,,
+Test Cases/Member/TC1_Register Member,Chrome 66.0.3359.139,,2018-05-16 14:52:24,2018-05-16 14:52:38,14.101s,PASSED
+Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username),Chrome 66.0.3359.139,"Use custom keyword to random username, full name, email",2018-05-16 14:52:25,2018-05-16 14:52:25,0.057s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-16 14:52:25,2018-05-16 14:52:37,12.482s,PASSED
+closeBrowser,Chrome 66.0.3359.139,Close browser,2018-05-16 14:52:37,2018-05-16 14:52:38,1.223s,PASSED

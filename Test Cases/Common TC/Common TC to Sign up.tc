@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Common TC to Sign up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6b9a373-94f3-49cd-b118-12167f1ac5d2</testCaseGuid>
+   <variable>
+      <defaultValue>'Password01'</defaultValue>
+      <description></description>
+      <id>14b88dd9-49e5-4656-8e5d-46e08d0a646c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81688c49-57b4-4432-9c11-828bbd05b7ef</id>
+      <masked>false</masked>
+      <name>input_username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4508eb3-843d-4278-a882-c260fe09bcc5</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thao'</defaultValue>
+      <description></description>
+      <id>f070765a-f4a5-4104-b4e7-2d787d86f99e</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

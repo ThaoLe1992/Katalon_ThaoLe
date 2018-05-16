@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="23" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suites" tests="1" failures="0" errors="0" time="23" timestamp="2018-05-16 14:51:55" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180516_145153"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180516_145153\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="c368be3849997987c959024e4beb58b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Member/TC1_Register Member" classname="Test Cases/Member/TC1_Register Member" status="PASSED">
+         <system-out><![CDATA[2018-05-16 14:51:55 - [TEST_CASE][PASSED] - Test Cases/Member/TC1_Register Member: Test Cases/Member/TC1_Register Member
+
+2018-05-16 14:51:55 - [TEST_STEP][PASSED] - Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username): newpackage.random_username.username is PASSED
+
+2018-05-16 14:51:55 - [MESSAGE][PASSED] - newpackage.random_username.username is PASSED
+
+2018-05-16 14:51:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common TC/Common TC to Sign up' successfully
+
+2018-05-16 14:51:55 - [TEST_CASE][PASSED] - Test Cases/Common TC/Common TC to Sign up: Test Cases/Common TC/Common TC to Sign up
+
+2018-05-16 14:51:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 14:52:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 14:52:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-16 14:52:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-16 14:52:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 14:52:13 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 14:52:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-16 14:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-16 14:52:14 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-16 14:52:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-16 14:52:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'thao216180516-145155' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-16 14:52:15 - [MESSAGE][PASSED] - Keys 'thao216180516-145155' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'thao216180516-145155' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-16 14:52:15 - [MESSAGE][PASSED] - Keys 'thao216180516-145155' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'thao216180516-145155@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-16 14:52:15 - [MESSAGE][PASSED] - Keys 'thao216180516-145155@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - Statement - email = input_username + "@gmail.com": null
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-16 14:52:15 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-16 14:52:15 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-16 14:52:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-16 14:52:16 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-16 14:52:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-16 14:52:17 - [TEST_STEP][PASSED] - Statement - txt_message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/txt_message)): Text of object 'Object Repository/Object_Sign up/txt_message' is: 'Member registered! Thank you!'
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/txt_message' is: 'Member registered! Thank you!'
+
+2018-05-16 14:52:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-16 14:52:17 - [TEST_STEP][PASSED] - Statement - txt_email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/txt_email)): Text of object 'Object Repository/Object_Sign up/txt_email' is: 'thao216180516-145155@gmail.com'
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/txt_email' is: 'thao216180516-145155@gmail.com'
+
+2018-05-16 14:52:17 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'thao216180516-145155@gmail.com' and expected text 'thao216180516-145155@gmail.com' are matched 
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Actual text 'thao216180516-145155@gmail.com' and expected text 'thao216180516-145155@gmail.com' are matched 
+
+2018-05-16 14:52:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common TC/Common TC to Sign up' successfully
+
+2018-05-16 14:52:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-16 14:52:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 14:51:55 - [TEST_SUITE][PASSED] - Test Suites: Test Cases/Member/TC1_Register Member]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-15T14:06:17</date>
+  <millis>1526367977768</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suites</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Test Suites</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suites</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:17</date>
+  <millis>1526367977795</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;thaotle - SGH451QS3J.kms.com.vn&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">thaotle - SGH451QS3J.kms.com.vn</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:17</date>
+  <millis>1526367977796</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:17</date>
+  <millis>1526367977797</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.10.156&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.10.156</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:17</date>
+  <millis>1526367977799</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978103</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC1/TC3</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC1/TC3</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC1/TC3</property>
+  <property name="source">C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Test Cases\\TC1\\TC3.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978131</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978132</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to Password01</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978133</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;username&amp;apos; is set to thaole16.24</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978133</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;email&amp;apos; is set to thaole16.24@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978133</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;fullname&amp;apos; is set to thaole16.21</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978477</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Call Common TC to Sign up</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978554</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking called Test Case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978555</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting to call Test Case &amp;apos;Test Cases/TC1/Common TC to Sign up&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978616</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC1/Common TC to Sign up</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/TC1/Common TC to Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC1/Common TC to Sign up</property>
+  <property name="source">C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Test Cases\\TC1\\Common TC to Sign up.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978653</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978653</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to Password01</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978654</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;username&amp;apos; is set to thaole16.24</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978654</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;fullname&amp;apos; is set to thaole16.21</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978654</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;email&amp;apos; is set to thaole16.24@gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-05-15T14:06:18</date>
+  <millis>1526367978806</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open Browser</property>
+</record>

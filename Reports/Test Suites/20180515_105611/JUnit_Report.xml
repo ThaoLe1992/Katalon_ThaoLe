@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="52" tests="0" failures="1" errors="1">
+   <testsuite name="Test Suites" tests="0" failures="1" errors="1" time="52" timestamp="2018-05-15 10:56:12" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_105611"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_105611\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="29867fcdbe44a2ede302ebc9a7a6467b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC1" classname="Test Cases/TC1/TC1" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class=&quot;page-registration&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;page-system&quot;]/div[@class=&quot;alert alert-success&quot;]})"/>
+         <system-out><![CDATA[2018-05-15 10:56:13 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1: Test Cases/TC1/TC1 FAILED because (of) Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})
+
+2018-05-15 10:56:13 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/TC1/Common TC to Sign up' (Root cause: Call Test Case 'Test Cases/TC1/Common TC to Sign up' failed)
+
+2018-05-15 10:56:13 - [TEST_CASE][FAILED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up FAILED because (of) Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})
+
+2018-05-15 10:56:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 10:56:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 10:56:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-15 10:56:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-15 10:56:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:56:22 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:56:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.21' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Keys 'thaotle1.21' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.21@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Keys 'thaotle1.21@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:56:23 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:56:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:56:24 - [TEST_STEP][FAILED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})
+
+2018-05-15 10:56:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-15 10:56:30 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})
+
+2018-05-15 10:56:30 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/TC1/Common TC to Sign up' (Root cause: Call Test Case 'Test Cases/TC1/Common TC to Sign up' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-15 10:56:13 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1: Test Cases/TC1/TC1 FAILED because (of) Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC3" classname="Test Cases/TC1/TC3" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC1/TC3 FAILED because (of) Variable 'ConditionType' is not defined for test case."/>
+         <system-out><![CDATA[2018-05-15 10:56:30 - [TEST_CASE][ERROR] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Variable 'ConditionType' is not defined for test case.
+
+2018-05-15 10:56:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-15 10:56:30 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up
+
+2018-05-15 10:56:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 10:56:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-15 10:56:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 10:56:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-15 10:56:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-15 10:56:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:56:38 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-15 10:56:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-15 10:56:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:56:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:56:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.22' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - Keys 'thaotle1.22' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.22@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - Keys 'thaotle1.22@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:56:40 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-15 10:56:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-15 10:56:42 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-15 10:56:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-15 10:56:42 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-15 10:56:42 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-15 10:56:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-15 10:56:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-15 10:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-15 10:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:56:44 - [TEST_STEP][PASSED] - setText: Text 'thaotle1.22' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:56:44 - [MESSAGE][PASSED] - Text 'thaotle1.22' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:56:44 - [TEST_STEP][PASSED] - Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)): Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-15 10:56:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-15 10:56:44 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:56:44 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:56:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:56:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-15 10:56:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-15 10:56:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-15 10:56:45 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Login: Test Cases/TC1/Common TC to Login
+
+2018-05-15 10:56:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-15 10:56:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:56:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-15 10:56:47 - [TEST_STEP][PASSED] - setText: Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:56:47 - [MESSAGE][PASSED] - Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-15 10:56:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-15 10:56:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-15 10:56:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-15 10:56:52 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-15 10:56:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:56:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:56:52 - [TEST_STEP][PASSED] - waitForElementNotVisible: Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-15 10:57:02 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-15 10:57:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/i_member' is clicked on
+
+2018-05-15 10:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/i_member' is clicked on
+
+2018-05-15 10:57:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-15 10:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-15 10:57:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-15 10:57:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-15 10:57:04 - [TEST_STEP][PASSED] - Statement - edit_xpath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["//div[contains(text(),'", username, "')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]"]): Concatenated string array: '['//div[contains(text(),'','thaotle1.22','')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]']' into '//div[contains(text(),'thaotle1.22')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]'
+
+2018-05-15 10:57:04 - [MESSAGE][PASSED] - Concatenated string array: '['//div[contains(text(),'','thaotle1.22','')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]']' into '//div[contains(text(),'thaotle1.22')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]'
+
+2018-05-15 10:57:04 - [TEST_STEP][PASSED] - Statement - myNewObject = new com.kms.katalon.core.testobject.TestObject(TheObjectName): null
+
+2018-05-15 10:57:04 - [TEST_STEP][PASSED] - Statement - myNewObject.addProperty("xpath", EQUALS, edit_xpath): null]]></system-out>
+         <system-err><![CDATA[2018-05-15 10:56:30 - [TEST_CASE][ERROR] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Variable 'ConditionType' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 10:56:12 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC1 FAILED because (of) Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})]]></system-out>
+      <system-err><![CDATA[2018-05-15 10:56:12 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC1 FAILED because (of) Unable to get text of object 'Object Repository/Object_Sign up/div_message' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: dcc72af38ff1113cef13bbee26de1b05
+*** Element info: {Using=xpath, value=/html[1]/body[@class="page-registration"]/div[@class="content"]/div[@class="container"]/div[@class="page-system"]/div[@class="alert alert-success"]})]]></system-err>
+   </testsuite>
+</testsuites>

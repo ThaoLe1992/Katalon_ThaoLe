@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,,,2018-05-15 15:56:03,2018-05-15 15:56:03,0.672s,ERROR
+,,,,,,
+Test Cases/TC1/TC1 - Copy,,,2018-05-15 15:56:03,2018-05-15 15:56:03,0.401s,ERROR
+"Statement - output_username = CustomKeywords.newpackage.random_username.abc(""thao"")",,,2018-05-15 15:56:03,2018-05-15 15:56:03,0.067s,ERROR

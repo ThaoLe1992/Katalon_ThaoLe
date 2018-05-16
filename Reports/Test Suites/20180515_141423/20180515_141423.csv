@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 14:14:24,2018-05-15 14:14:48,23.426s,PASSED
+,,,,,,
+Test Cases/TC1/TC2,Chrome 66.0.3359.139,,2018-05-15 14:14:25,2018-05-15 14:14:48,23.125s,PASSED
+openBrowser,Chrome 66.0.3359.139,Open Browser,2018-05-15 14:14:25,2018-05-15 14:14:31,5.818s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,Open window with full size,2018-05-15 14:14:31,2018-05-15 14:14:32,1.163s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Open link http://13.250.134.32/subrion/,2018-05-15 14:14:32,2018-05-15 14:14:33,1.505s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-15 14:14:33,2018-05-15 14:14:36,2.482s,PASSED
+click,Chrome 66.0.3359.139,Navigate to Blog,2018-05-15 14:14:36,2018-05-15 14:14:37,1.002s,PASSED
+click,Chrome 66.0.3359.139,Add a new blog,2018-05-15 14:14:37,2018-05-15 14:14:38,1.637s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input title,2018-05-15 14:14:38,2018-05-15 14:14:39,0.182s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input content\r\n,2018-05-15 14:14:39,2018-05-15 14:14:43,4.570s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input tags,2018-05-15 14:14:43,2018-05-15 14:14:43,0.135s,PASSED
+click,Chrome 66.0.3359.139,Save a new blog,2018-05-15 14:14:43,2018-05-15 14:14:46,3.131s,PASSED
+Statement - txt_title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_title)),Chrome 66.0.3359.139,Get the title,2018-05-15 14:14:46,2018-05-15 14:14:46,0.051s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Veriy the title,2018-05-15 14:14:46,2018-05-15 14:14:46,0.007s,PASSED
+Statement - txt_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_content)),Chrome 66.0.3359.139,Get the content,2018-05-15 14:14:46,2018-05-15 14:14:47,0.041s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Veriy the content\r\n,2018-05-15 14:14:47,2018-05-15 14:14:47,0.001s,PASSED
+Statement - txt_tags = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_tags)),Chrome 66.0.3359.139,Get the tags\r\n,2018-05-15 14:14:47,2018-05-15 14:14:47,0.041s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Verify the tags\r\n,2018-05-15 14:14:47,2018-05-15 14:14:47,0.011s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-15 14:14:47,2018-05-15 14:14:48,1.068s,PASSED

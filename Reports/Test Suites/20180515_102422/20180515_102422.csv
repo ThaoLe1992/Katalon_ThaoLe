@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 10:24:23,2018-05-15 10:24:59,35.604s,ERROR
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 10:24:23,2018-05-15 10:24:58,34.364s,ERROR
+callTestCase,Chrome 66.0.3359.139,,2018-05-15 10:24:24,2018-05-15 10:24:37,12.751s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:24:37,2018-05-15 10:24:38,1.134s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:24:38,2018-05-15 10:24:39,0.760s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 10:24:39,2018-05-15 10:24:39,0.185s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,,2018-05-15 10:24:39,2018-05-15 10:24:39,0.043s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 10:24:39,2018-05-15 10:24:39,0.140s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:24:39,2018-05-15 10:24:40,0.847s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-15 10:24:40,2018-05-15 10:24:40,0.077s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-15 10:24:40,2018-05-15 10:24:43,2.754s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 10:24:43,2018-05-15 10:24:45,2.937s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 10:24:45,2018-05-15 10:24:46,0.009s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-15 10:24:46,2018-05-15 10:24:56,10.451s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:24:56,2018-05-15 10:24:56,0.099s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:24:56,2018-05-15 10:24:57,1.048s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 10:24:57,2018-05-15 10:24:58,0.581s,PASSED
+"Statement - new_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Active member/btn_edit), ""xpath"", ""equals"", ""//div[contains(text(),'"", username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]"", false)",Chrome 66.0.3359.139,,2018-05-15 10:24:58,2018-05-15 10:24:58,0.005s,PASSED

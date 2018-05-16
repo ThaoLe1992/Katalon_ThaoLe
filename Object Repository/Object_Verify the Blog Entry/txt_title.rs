@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_title</name>
+   <tag></tag>
+   <elementGuidId>961c1c29-5212-4fcb-8228-393226b2c937</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,&quot;content&quot;)]//div[contains(@class,&quot;content__header&quot;)]/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,&quot;content&quot;)]//div[contains(@class,&quot;content__header&quot;)]/h1</value>
+   </webElementProperties>
+</WebElementEntity>

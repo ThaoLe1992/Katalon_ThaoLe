@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 11:14:37,2018-05-15 11:15:20,43.492s,PASSED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 11:14:37,2018-05-15 11:15:20,43.168s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 11:14:37,2018-05-15 11:14:50,12.617s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:14:50,2018-05-15 11:14:51,1.188s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:14:51,2018-05-15 11:14:52,0.675s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:14:52,2018-05-15 11:14:52,0.166s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,,2018-05-15 11:14:52,2018-05-15 11:14:52,0.039s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:14:52,2018-05-15 11:14:52,0.127s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:14:52,2018-05-15 11:14:53,0.746s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-15 11:14:53,2018-05-15 11:14:53,0.065s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-15 11:14:53,2018-05-15 11:14:55,2.569s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 11:14:55,2018-05-15 11:14:58,2.587s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 11:14:58,2018-05-15 11:14:58,0.013s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-15 11:14:58,2018-05-15 11:15:08,10.468s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:08,2018-05-15 11:15:09,0.111s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:09,2018-05-15 11:15:10,1.461s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 11:15:10,2018-05-15 11:15:11,1.071s,PASSED
+"Statement - edit_xpath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""//div[contains(text(),'"", username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]""])",Chrome 66.0.3359.139,,2018-05-15 11:15:11,2018-05-15 11:15:11,0.017s,PASSED
+Statement - myNewObject = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 66.0.3359.139,,2018-05-15 11:15:11,2018-05-15 11:15:11,0.004s,PASSED
+"Statement - myNewObject.addProperty(""xpath"", EQUALS, edit_xpath)",Chrome 66.0.3359.139,,2018-05-15 11:15:11,2018-05-15 11:15:11,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:11,2018-05-15 11:15:13,2.076s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-15 11:15:13,2018-05-15 11:15:13,0.168s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:13,2018-05-15 11:15:15,1.257s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:15,2018-05-15 11:15:16,1.892s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 11:15:16,2018-05-15 11:15:17,0.685s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:15:17,2018-05-15 11:15:17,0.133s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:15:17,2018-05-15 11:15:17,0.119s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:15:17,2018-05-15 11:15:19,1.217s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-15 11:15:19,2018-05-15 11:15:20,1.374s,PASSED

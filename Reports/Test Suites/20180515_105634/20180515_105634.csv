@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 10:56:36,2018-05-15 10:57:17,41.546s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 10:56:36,2018-05-15 10:57:16,40.459s,FAILED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 10:56:36,2018-05-15 10:57:16,39.956s,FAILED

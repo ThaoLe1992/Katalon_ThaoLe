@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="22" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suites" tests="0" failures="1" errors="0" time="22" timestamp="2018-05-14 16:53:36" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_165334"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_165334\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_165334\\1526291636613.png"/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="5db8e17d8d080bbc04833787bfe57c07"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC3" classname="Test Cases/TC1/TC3" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;#&quot; data-toggle=&quot;nav-sub-members&quot;>...&lt;/a> is not clickable at point (60, 381). Other element would receive the click: &lt;div id=&quot;js-ajax-loader&quot;>...&lt;/div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)"/>
+         <system-out><![CDATA[2018-05-14 16:53:36 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)
+
+2018-05-14 16:53:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:53:36 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up
+
+2018-05-14 16:53:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:53:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:53:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:53:45 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:53:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:53:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-14 16:53:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-14 16:53:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.7' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:53:45 - [MESSAGE][PASSED] - Keys 'thaotle1.7' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:53:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:53:46 - [MESSAGE][PASSED] - Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:53:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.7@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:53:46 - [MESSAGE][PASSED] - Keys 'thaotle1.7@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:53:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:53:46 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:53:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:53:46 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:53:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:53:46 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:53:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:53:48 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:53:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:53:48 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:53:48 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:53:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:53:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:53:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:53:49 - [TEST_STEP][PASSED] - setText: Text 'thaotle1.7' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:53:49 - [MESSAGE][PASSED] - Text 'thaotle1.7' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:53:49 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:53:49 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:53:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:53:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:53:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:53:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-14 16:53:50 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Login: Test Cases/TC1/Common TC to Login
+
+2018-05-14 16:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:53:51 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:53:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:53:51 - [TEST_STEP][PASSED] - setText: Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:53:51 - [MESSAGE][PASSED] - Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:53:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Login' successfully
+
+2018-05-14 16:53:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:53:56 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:53:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)
+
+2018-05-14 16:53:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)
+[[ATTACHMENT|C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_165334\\1526291636613.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:53:36 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 16:53:36 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)]]></system-out>
+      <system-err><![CDATA[2018-05-14 16:53:36 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a href="#" data-toggle="nav-sub-members">...</a> is not clickable at point (60, 381). Other element would receive the click: <div id="js-ajax-loader">...</div>
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SGH451QS3J', ip: '192.168.10.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\thaotle\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 5db8e17d8d080bbc04833787bfe57c07)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="45" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suites" tests="1" failures="0" errors="0" time="45" timestamp="2018-05-16 14:59:26" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180516_145924"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180516_145924\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="f0fdb48bff773961c1ba6ff77136d879"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Member/TC3_Only Active Member can login to system" classname="Test Cases/Member/TC3_Only Active Member can login to system" status="PASSED">
+         <system-out><![CDATA[2018-05-16 14:59:26 - [TEST_CASE][PASSED] - Test Cases/Member/TC3_Only Active Member can login to system: Test Cases/Member/TC3_Only Active Member can login to system
+
+2018-05-16 14:59:26 - [TEST_STEP][PASSED] - Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username): newpackage.random_username.username is PASSED
+
+2018-05-16 14:59:26 - [MESSAGE][PASSED] - newpackage.random_username.username is PASSED
+
+2018-05-16 14:59:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common TC/Common TC to Sign up' successfully
+
+2018-05-16 14:59:26 - [TEST_CASE][PASSED] - Test Cases/Common TC/Common TC to Sign up: Test Cases/Common TC/Common TC to Sign up
+
+2018-05-16 14:59:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-16 14:59:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-16 14:59:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-16 14:59:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-16 14:59:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 14:59:37 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 14:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'thao626180516-145926' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - Keys 'thao626180516-145926' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'Thao Le 162' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - Keys 'Thao Le 162' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'thao626180516-145926@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - Keys 'thao626180516-145926@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - Statement - email = input_username + "@gmail.com": null
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-16 14:59:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-16 14:59:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-16 14:59:39 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-16 14:59:39 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-16 14:59:39 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-16 14:59:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-16 14:59:40 - [TEST_STEP][PASSED] - Statement - txt_message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/txt_message)): Text of object 'Object Repository/Object_Sign up/txt_message' is: 'Member registered! Thank you!'
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/txt_message' is: 'Member registered! Thank you!'
+
+2018-05-16 14:59:40 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-16 14:59:40 - [TEST_STEP][PASSED] - Statement - txt_email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/txt_email)): Text of object 'Object Repository/Object_Sign up/txt_email' is: 'thao626180516-145926@gmail.com'
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/txt_email' is: 'thao626180516-145926@gmail.com'
+
+2018-05-16 14:59:40 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'thao626180516-145926@gmail.com' and expected text 'thao626180516-145926@gmail.com' are matched 
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Actual text 'thao626180516-145926@gmail.com' and expected text 'thao626180516-145926@gmail.com' are matched 
+
+2018-05-16 14:59:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common TC/Common TC to Sign up' successfully
+
+2018-05-16 14:59:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 14:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 14:59:41 - [TEST_STEP][PASSED] - setText: Text 'thao626180516-145926' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 14:59:41 - [MESSAGE][PASSED] - Text 'thao626180516-145926' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 14:59:41 - [TEST_STEP][PASSED] - Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)): Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-16 14:59:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Login/input_username' is: ''
+
+2018-05-16 14:59:41 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 14:59:41 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 14:59:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 14:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 14:59:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Object_Login/Object_Messeage_Login Failed' are matched.
+
+2018-05-16 14:59:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Object_Login/Object_Messeage_Login Failed' are matched.
+
+2018-05-16 14:59:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common TC/Common TC to Login' successfully
+
+2018-05-16 14:59:42 - [TEST_CASE][PASSED] - Test Cases/Common TC/Common TC to Login: Test Cases/Common TC/Common TC to Login
+
+2018-05-16 14:59:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 14:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 14:59:43 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 14:59:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 14:59:43 - [TEST_STEP][PASSED] - setText: Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 14:59:43 - [MESSAGE][PASSED] - Text 'Katalon@2018' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 14:59:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 14:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 14:59:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common TC/Common TC to Login' successfully
+
+2018-05-16 14:59:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-16 14:59:47 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-16 14:59:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-16 14:59:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-16 14:59:47 - [TEST_STEP][PASSED] - waitForElementNotVisible: Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-16 14:59:58 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Object_Active member/wait_loader' located by 'By.xpath: //*[@ip = 'js-ajax-loader-status']' not found
+
+2018-05-16 14:59:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/main_member' is clicked on
+
+2018-05-16 14:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/main_member' is clicked on
+
+2018-05-16 14:59:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-16 14:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/sub_member' is clicked on
+
+2018-05-16 14:59:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-16 14:59:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-16 14:59:59 - [TEST_STEP][PASSED] - Statement - xpath_string = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["//div[contains(text(),'", return_username, "')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]"]): Concatenated string array: '['//div[contains(text(),'','','')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]']' into '//div[contains(text(),'')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]'
+
+2018-05-16 14:59:59 - [MESSAGE][PASSED] - Concatenated string array: '['//div[contains(text(),'','','')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]']' into '//div[contains(text(),'')]/parent::td/following-sibling::td[9]/div/i[@title="Edit"]'
+
+2018-05-16 14:59:59 - [TEST_STEP][PASSED] - Statement - btn_edit = new com.kms.katalon.core.testobject.TestObject(TheObjectName): null
+
+2018-05-16 14:59:59 - [TEST_STEP][PASSED] - Statement - btn_edit.addProperty("xpath", EQUALS, xpath_string): null
+
+2018-05-16 14:59:59 - [TEST_STEP][PASSED] - click: Object: 'TheObjectName' is clicked on
+
+2018-05-16 15:00:03 - [MESSAGE][PASSED] - Object: 'TheObjectName' is clicked on
+
+2018-05-16 15:00:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'active' are selected in object 'Object Repository/Object_Active member/cmb_Status'  using regular expression
+
+2018-05-16 15:00:03 - [MESSAGE][PASSED] - All options with value 'active' are selected in object 'Object Repository/Object_Active member/cmb_Status'  using regular expression
+
+2018-05-16 15:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/btn_Save' is clicked on
+
+2018-05-16 15:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/btn_Save' is clicked on
+
+2018-05-16 15:00:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Active member/a_Logout' is clicked on
+
+2018-05-16 15:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Active member/a_Logout' is clicked on
+
+2018-05-16 15:00:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 15:00:07 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-16 15:00:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common TC/Common TC to Login' successfully
+
+2018-05-16 15:00:07 - [TEST_CASE][PASSED] - Test Cases/Common TC/Common TC to Login: Test Cases/Common TC/Common TC to Login
+
+2018-05-16 15:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 15:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-16 15:00:08 - [TEST_STEP][PASSED] - setText: Text 'thao626180516-145926' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 15:00:09 - [MESSAGE][PASSED] - Text 'thao626180516-145926' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-16 15:00:09 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 15:00:09 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-16 15:00:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 15:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-16 15:00:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common TC/Common TC to Login' successfully
+
+2018-05-16 15:00:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-16 15:00:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 14:59:26 - [TEST_SUITE][PASSED] - Test Suites: Test Cases/Member/TC3_Only Active Member can login to system]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

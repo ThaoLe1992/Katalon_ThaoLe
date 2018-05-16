@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-16 10:11:54,2018-05-16 10:13:19,1m - 24.472s,PASSED
+,,,,,,
+Test Cases/TC1/TC1,Chrome 66.0.3359.139,,2018-05-16 10:11:54,2018-05-16 10:12:14,19.918s,PASSED
+Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username),Chrome 66.0.3359.139,"Use custom keyword to random username, full name, email",2018-05-16 10:11:55,2018-05-16 10:11:55,0.045s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-16 10:11:55,2018-05-16 10:12:13,18.519s,PASSED
+closeBrowser,Chrome 66.0.3359.139,Close browser,2018-05-16 10:12:13,2018-05-16 10:12:14,1.003s,PASSED
+,,,,,,
+Test Cases/TC1/TC2,Chrome 66.0.3359.139,,2018-05-16 10:12:14,2018-05-16 10:12:38,23.306s,PASSED
+openBrowser,Chrome 66.0.3359.139,Open Browser,2018-05-16 10:12:15,2018-05-16 10:12:19,4.018s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,Open window with full size,2018-05-16 10:12:19,2018-05-16 10:12:20,1.143s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Open link http://13.250.134.32/subrion/,2018-05-16 10:12:20,2018-05-16 10:12:21,1.462s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-16 10:12:21,2018-05-16 10:12:24,2.838s,PASSED
+click,Chrome 66.0.3359.139,Navigate to Blog,2018-05-16 10:12:24,2018-05-16 10:12:25,1.237s,PASSED
+click,Chrome 66.0.3359.139,Add a new blog,2018-05-16 10:12:25,2018-05-16 10:12:27,1.865s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input title,2018-05-16 10:12:27,2018-05-16 10:12:28,0.349s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input content\r\n,2018-05-16 10:12:28,2018-05-16 10:12:33,5.073s,PASSED
+sendKeys,Chrome 66.0.3359.139,Input tags,2018-05-16 10:12:33,2018-05-16 10:12:33,0.157s,PASSED
+click,Chrome 66.0.3359.139,Save a new blog,2018-05-16 10:12:33,2018-05-16 10:12:36,3.619s,PASSED
+Statement - txt_title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_title)),Chrome 66.0.3359.139,Get the title,2018-05-16 10:12:36,2018-05-16 10:12:36,0.063s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Veriy the title,2018-05-16 10:12:36,2018-05-16 10:12:36,0.001s,PASSED
+Statement - txt_content = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_content)),Chrome 66.0.3359.139,Get the content,2018-05-16 10:12:36,2018-05-16 10:12:36,0.050s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Veriy the content\r\n,2018-05-16 10:12:36,2018-05-16 10:12:36,0.000s,PASSED
+Statement - txt_tags = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Verify the Blog Entry/txt_tags)),Chrome 66.0.3359.139,Get the tags\r\n,2018-05-16 10:12:36,2018-05-16 10:12:37,0.044s,PASSED
+verifyMatch,Chrome 66.0.3359.139,Verify the tags\r\n,2018-05-16 10:12:37,2018-05-16 10:12:37,0.000s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 10:12:37,2018-05-16 10:12:38,1.233s,PASSED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-16 10:12:38,2018-05-16 10:13:19,40.740s,PASSED
+Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username),Chrome 66.0.3359.139,"Use custom keyword to random username, full name, email",2018-05-16 10:12:38,2018-05-16 10:12:38,0.000s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-16 10:12:38,2018-05-16 10:12:49,10.691s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Log In' menu ===> Brought to Log In page,2018-05-16 10:12:49,2018-05-16 10:12:49,0.789s,PASSED
+setText,Chrome 66.0.3359.139,Log in with newly created user,2018-05-16 10:12:49,2018-05-16 10:12:50,0.186s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,Get Text to modify xpath for Edit button (in case Client wants to update Status of User by admin),2018-05-16 10:12:50,2018-05-16 10:12:50,0.029s,PASSED
+setText,Chrome 66.0.3359.139,Enter password for new User,2018-05-16 10:12:50,2018-05-16 10:12:50,0.123s,PASSED
+click,Chrome 66.0.3359.139,Click Login button to log Home Page,2018-05-16 10:12:50,2018-05-16 10:12:51,0.830s,PASSED
+verifyElementText,Chrome 66.0.3359.139,Verify error message is displayed,2018-05-16 10:12:51,2018-05-16 10:12:51,0.092s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call 'Common TC to Login' to Login by Admin account ===> \t\r\nBrought to My Profile page,2018-05-16 10:12:51,2018-05-16 10:12:53,2.765s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Navigate to Administration Panel page (http://13.250.134.32/subrion/panel/),2018-05-16 10:12:53,2018-05-16 10:12:57,3.118s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-16 10:12:57,2018-05-16 10:12:57,0.030s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-16 10:12:57,2018-05-16 10:13:07,10.568s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Members' menu of Main Menu,2018-05-16 10:13:07,2018-05-16 10:13:07,0.112s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Members' menu of Sub Menu  ===> Brought to Members page,2018-05-16 10:13:07,2018-05-16 10:13:09,1.876s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,Wait Page Load,2018-05-16 10:13:09,2018-05-16 10:13:09,0.066s,PASSED
+"Statement - xpath_string = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""//div[contains(text(),'"", return_username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]""])",Chrome 66.0.3359.139,Click on Edit icon of created member,2018-05-16 10:13:09,2018-05-16 10:13:09,0.011s,PASSED
+Statement - btn_edit = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 66.0.3359.139,,2018-05-16 10:13:09,2018-05-16 10:13:09,0.004s,PASSED
+"Statement - btn_edit.addProperty(""xpath"", EQUALS, xpath_string)",Chrome 66.0.3359.139,,2018-05-16 10:13:09,2018-05-16 10:13:09,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 10:13:09,2018-05-16 10:13:11,1.903s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,Select 'Active' status,2018-05-16 10:13:11,2018-05-16 10:13:11,0.216s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Save' button,2018-05-16 10:13:11,2018-05-16 10:13:13,1.212s,PASSED
+click,Chrome 66.0.3359.139,Log out of the system ===> \tNavigate to Home Page,2018-05-16 10:13:13,2018-05-16 10:13:15,1.963s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Navigate to Home Page,2018-05-16 10:13:15,2018-05-16 10:13:15,0.925s,PASSED
+callTestCase,Chrome 66.0.3359.139,Log in with activated user,2018-05-16 10:13:15,2018-05-16 10:13:18,2.090s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 10:13:18,2018-05-16 10:13:19,0.941s,PASSED

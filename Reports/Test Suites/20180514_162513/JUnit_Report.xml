@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="26" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suites" tests="0" failures="1" errors="0" time="26" timestamp="2018-05-14 16:25:14" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_162513"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_162513\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="5ca1c6db4faba3adbce7e066950ec1ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC3" classname="Test Cases/TC1/TC3" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)"/>
+         <system-out><![CDATA[2018-05-14 16:25:15 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)
+
+2018-05-14 16:25:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:25:15 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up
+
+2018-05-14 16:25:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:25:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:25:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:25:24 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:25:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-14 16:25:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-14 16:25:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.4' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:25:29 - [MESSAGE][PASSED] - Keys 'thaotle1.4' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:25:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:25:29 - [MESSAGE][PASSED] - Keys 'thaotle1.2' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:25:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.4@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:25:29 - [MESSAGE][PASSED] - Keys 'thaotle1.4@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:25:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:25:30 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:25:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:25:30 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:25:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:25:30 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:25:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:25:31 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:25:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:25:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:25:32 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:25:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:25:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:25:33 - [TEST_STEP][PASSED] - setText: Text 'thaotle1.4' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:25:33 - [MESSAGE][PASSED] - Text 'thaotle1.4' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:25:33 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:25:33 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:25:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:25:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:25:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:25:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:25:38 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:25:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/Object_Login for Admin/input_username'
+
+2018-05-14 16:25:38 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/Object_Login for Admin/input_username'
+
+2018-05-14 16:25:38 - [TEST_STEP][PASSED] - sendKeys: Keys 'Katalon@2018' sent to object: 'Object Repository/Object_Login for Admin/input_password'
+
+2018-05-14 16:25:38 - [MESSAGE][PASSED] - Keys 'Katalon@2018' sent to object: 'Object Repository/Object_Login for Admin/input_password'
+
+2018-05-14 16:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login for Admin/btn_Login' is clicked on
+
+2018-05-14 16:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login for Admin/btn_Login' is clicked on
+
+2018-05-14 16:25:40 - [TEST_STEP][PASSED] - Statement - window_title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(STOP_ON_FAILURE): Current window's title is: 'My Profile :: Powered by Subrion 4.2'
+
+2018-05-14 16:25:40 - [MESSAGE][PASSED] - Current window's title is: 'My Profile :: Powered by Subrion 4.2'
+
+2018-05-14 16:25:40 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)
+
+2018-05-14 16:25:40 - [MESSAGE][FAILED] - Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:25:15 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 16:25:14 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-05-14 16:25:14 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to verify match between actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' (Root cause: Actual text 'My Profile :: Powered by Subrion 4.2' and expected text 'Dashboard ' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>

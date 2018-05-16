@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="0" tests="0" failures="0" errors="1">
+   <testsuite name="Test Suites" tests="0" failures="0" errors="1" time="0" timestamp="2018-05-15 16:08:20" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_160819"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180515_160819\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC1 - Copy" classname="Test Cases/TC1/TC1 - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC1/TC1 - Copy FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)"/>
+         <system-out><![CDATA[2018-05-15 16:08:21 - [TEST_CASE][ERROR] - Test Cases/TC1/TC1 - Copy: Test Cases/TC1/TC1 - Copy FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)
+
+2018-05-15 16:08:21 - [TEST_STEP][ERROR] - Statement - output_username = CustomKeywords.newpackage.random_username.abc("thao"): No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)
+
+2018-05-15 16:08:21 - [MESSAGE][ERROR] - No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)]]></system-out>
+         <system-err><![CDATA[2018-05-15 16:08:21 - [TEST_CASE][ERROR] - Test Cases/TC1/TC1 - Copy: Test Cases/TC1/TC1 - Copy FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 16:08:20 - [TEST_SUITE][ERROR] - Test Suites: Test Cases/TC1/TC1 - Copy FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)]]></system-out>
+      <system-err><![CDATA[2018-05-15 16:08:20 - [TEST_SUITE][ERROR] - Test Suites: Test Cases/TC1/TC1 - Copy FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: newpackage.random_username.abc() is applicable for argument types: (java.lang.String) values: [thao]
+Possible solutions: any(), any(groovy.lang.Closure), wait(), wait(long), use([Ljava.lang.Object;), each(groovy.lang.Closure)]]></system-err>
+   </testsuite>
+</testsuites>

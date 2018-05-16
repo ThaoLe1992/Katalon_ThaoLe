@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,,,2018-05-15 11:14:00,2018-05-15 11:14:21,21.474s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,,,2018-05-15 11:14:00,2018-05-15 11:14:21,21.162s,FAILED
+callTestCase,,Call Common TC to Sign up,2018-05-15 11:14:00,2018-05-15 11:14:21,20.856s,FAILED

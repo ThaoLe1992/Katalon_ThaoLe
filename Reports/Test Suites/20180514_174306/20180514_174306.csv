@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-14 17:43:07,2018-05-14 17:44:12,1m - 4.662s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-14 17:43:07,2018-05-14 17:44:11,1m - 3.708s,FAILED
+callTestCase,Chrome 66.0.3359.139,,2018-05-14 17:43:08,2018-05-14 17:43:18,10.347s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:18,2018-05-14 17:43:19,0.760s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:19,2018-05-14 17:43:20,0.784s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-14 17:43:20,2018-05-14 17:43:20,0.178s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-14 17:43:20,2018-05-14 17:43:20,0.108s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:20,2018-05-14 17:43:21,0.826s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-14 17:43:21,2018-05-14 17:43:21,0.064s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-14 17:43:21,2018-05-14 17:43:23,2.379s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-14 17:43:23,2018-05-14 17:43:24,1.164s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-14 17:43:24,2018-05-14 17:43:24,0.025s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-14 17:43:24,2018-05-14 17:43:35,10.568s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:35,2018-05-14 17:43:35,0.084s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:35,2018-05-14 17:43:37,1.947s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-14 17:43:37,2018-05-14 17:43:37,0.063s,PASSED
+"Statement - new_btn = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Active member/btn_edit), ""xpath"", ""equals"", ""//div[contains(text(),username]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]"", false)",Chrome 66.0.3359.139,,2018-05-14 17:43:37,2018-05-14 17:43:37,0.015s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-14 17:43:37,2018-05-14 17:44:11,34.071s,FAILED

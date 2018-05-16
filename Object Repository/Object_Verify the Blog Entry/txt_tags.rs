@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_tags</name>
+   <tag></tag>
+   <elementGuidId>e2fa6bce-cdec-4c0d-8933-8b3ebdbe540d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,&quot;content__body&quot;)]//div[contains(@class,&quot;tags&quot;)]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,&quot;content__body&quot;)]//div[contains(@class,&quot;tags&quot;)]/a</value>
+   </webElementProperties>
+</WebElementEntity>

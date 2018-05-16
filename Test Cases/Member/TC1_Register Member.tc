@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Register Member</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce72a0f2-3fdd-4785-8572-1458dee30abd</testCaseGuid>
+   <variable>
+      <defaultValue>'162'</defaultValue>
+      <description></description>
+      <id>b343b86a-9d3a-4f6c-9576-87574881cd60</id>
+      <masked>false</masked>
+      <name>random_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password01'</defaultValue>
+      <description></description>
+      <id>298ce984-2de5-4f8a-8217-8c1ef736fda0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thao Le'</defaultValue>
+      <description></description>
+      <id>b111274a-7c5f-47a2-bf99-ee9533e3c629</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

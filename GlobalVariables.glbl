@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://13.250.134.32/subrion/'</initValue>
+      <name>link_homepage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://13.250.134.32/subrion/panel/'</initValue>
+      <name>link_adminpage</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

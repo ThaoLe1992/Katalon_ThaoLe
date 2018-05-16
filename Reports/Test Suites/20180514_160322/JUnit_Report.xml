@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suites" time="53" tests="0" failures="1" errors="0">
+   <testsuite name="Test Suites" tests="0" failures="1" errors="0" time="53" timestamp="2018-05-14 16:03:23" hostname="thaotle - SGH451QS3J.kms.com.vn" id="Test Suites/Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_160322"/>
+         <property name="logFiles" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_160322\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_160322\\1526288655016.png"/>
+         <property name="hostName" value="thaotle - SGH451QS3J.kms.com.vn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.10.156"/>
+         <property name="sessionId" value="9b7fe1fb54e98ced76ab473234c0734f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC3" classname="Test Cases/TC1/TC3" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id(&quot;menu-section-members&quot;)//i[@class=&quot;i-cogs i-members&quot;]' not found)"/>
+         <system-out><![CDATA[2018-05-14 16:03:23 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)
+
+2018-05-14 16:03:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:03:24 - [TEST_CASE][PASSED] - Test Cases/TC1/Common TC to Sign up: Test Cases/TC1/Common TC to Sign up
+
+2018-05-14 16:03:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 16:03:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 16:03:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:03:32 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/' successfully
+
+2018-05-14 16:03:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/a_Sign up' is clicked on
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.1' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - Keys 'thaotle1.1' sent to object: 'Object Repository/Object_Sign up/input_username'
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'Thao' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - Keys 'Thao' sent to object: 'Object Repository/Object_Sign up/input_fullname'
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'thaotle1.1@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - Keys 'thaotle1.1@gmail.com' sent to object: 'Object Repository/Object_Sign up/input_email'
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:03:34 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Object_Sign up/cmb_gender' 
+
+2018-05-14 16:03:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:03:35 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password'
+
+2018-05-14 16:03:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:03:35 - [MESSAGE][PASSED] - Keys 'Password01' sent to object: 'Object Repository/Object_Sign up/input_password2'
+
+2018-05-14 16:03:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Sign up/button_Registration' is clicked on
+
+2018-05-14 16:03:36 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Sign up/div_message)): Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:03:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Object_Sign up/div_message' is: 'Member registered! Thank you!'
+
+2018-05-14 16:03:36 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:03:36 - [MESSAGE][PASSED] - Actual text 'Member registered! Thank you!' and expected text 'Member registered! Thank you!' are matched 
+
+2018-05-14 16:03:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC1/Common TC to Sign up' successfully
+
+2018-05-14 16:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_1/Page_Registration  Powered by Subri/li_Log in' is clicked on
+
+2018-05-14 16:03:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/a_Log in' is clicked on
+
+2018-05-14 16:03:38 - [TEST_STEP][PASSED] - setText: Text 'thaotle1.1' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:03:38 - [MESSAGE][PASSED] - Text 'thaotle1.1' is set on object 'Object Repository/Object_Login/input_username'
+
+2018-05-14 16:03:38 - [TEST_STEP][PASSED] - setText: Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:03:38 - [MESSAGE][PASSED] - Text 'Password01' is set on object 'Object Repository/Object_Login/input_password'
+
+2018-05-14 16:03:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login/btn_Login' is clicked on
+
+2018-05-14 16:03:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:03:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC3_1/Page_Login  Powered by Subrion 4.2/li_Either login or password is' are matched.
+
+2018-05-14 16:03:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:03:41 - [MESSAGE][PASSED] - Navigate to 'http://13.250.134.32/subrion/panel/' successfully
+
+2018-05-14 16:03:41 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/Object_Login for Admin/input_username'
+
+2018-05-14 16:03:41 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/Object_Login for Admin/input_username'
+
+2018-05-14 16:03:41 - [TEST_STEP][PASSED] - sendKeys: Keys 'Katalon@2018' sent to object: 'Object Repository/Object_Login for Admin/input_password'
+
+2018-05-14 16:03:41 - [MESSAGE][PASSED] - Keys 'Katalon@2018' sent to object: 'Object Repository/Object_Login for Admin/input_password'
+
+2018-05-14 16:03:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Object_Login for Admin/btn_Login' is clicked on
+
+2018-05-14 16:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Object_Login for Admin/btn_Login' is clicked on
+
+2018-05-14 16:03:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)
+
+2018-05-14 16:04:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)
+[[ATTACHMENT|C:\\Users\\thaotle\\Katalon Studio\\Sigma\\Reports\\Test Suites\\20180514_160322\\1526288655016.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-14 16:03:23 - [TEST_CASE][FAILED] - Test Cases/TC1/TC3: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 16:03:23 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-14 16:03:23 - [TEST_SUITE][FAILED] - Test Suites: Test Cases/TC1/TC3 FAILED because (of) Unable to click on object 'Object Repository/Object_Active member/i_member' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Object_Active member/i_member' located by 'By.xpath: id("menu-section-members")//i[@class="i-cogs i-members"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

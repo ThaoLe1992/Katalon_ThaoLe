@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 14:03:34,2018-05-15 14:04:48,1m - 13.382s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 14:03:35,2018-05-15 14:04:47,1m - 12.003s,FAILED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 14:03:35,2018-05-15 14:03:54,18.914s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Log In' menu ===> Brought to Log In page,2018-05-15 14:03:54,2018-05-15 14:03:55,0.735s,PASSED
+setText,Chrome 66.0.3359.139,Log in with newly created user,2018-05-15 14:03:55,2018-05-15 14:03:55,0.148s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,Get Text to modify xpath for Edit button (in case Client wants to update Status of User by admin),2018-05-15 14:03:55,2018-05-15 14:03:55,0.036s,PASSED
+setText,Chrome 66.0.3359.139,Enter password for new User,2018-05-15 14:03:55,2018-05-15 14:03:55,0.128s,PASSED
+click,Chrome 66.0.3359.139,Click Login button to log Home Page,2018-05-15 14:03:55,2018-05-15 14:03:56,0.880s,PASSED
+verifyElementText,Chrome 66.0.3359.139,Verify error message is displayed,2018-05-15 14:03:56,2018-05-15 14:03:56,0.059s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call 'Common TC to Login' to Login by Admin account ===> \t\r\nBrought to My Profile page,2018-05-15 14:03:56,2018-05-15 14:03:58,2.236s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Navigate to Administration Panel page (http://13.250.134.32/subrion/panel/),2018-05-15 14:03:58,2018-05-15 14:04:05,6.454s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 14:04:05,2018-05-15 14:04:05,0.016s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-15 14:04:05,2018-05-15 14:04:15,10.363s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Members' menu of Main Menu,2018-05-15 14:04:15,2018-05-15 14:04:47,31.671s,FAILED

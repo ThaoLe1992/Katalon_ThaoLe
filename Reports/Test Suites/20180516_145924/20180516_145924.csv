@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-16 14:59:26,2018-05-16 15:00:11,45.387s,PASSED
+,,,,,,
+Test Cases/Member/TC3_Only Active Member can login to system,Chrome 66.0.3359.139,,2018-05-16 14:59:26,2018-05-16 15:00:11,45.076s,PASSED
+Statement - output_username = CustomKeywords.newpackage.random_username.username(random_username),Chrome 66.0.3359.139,"Use custom keyword to random username, full name, email",2018-05-16 14:59:26,2018-05-16 14:59:26,0.041s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-16 14:59:26,2018-05-16 14:59:40,13.672s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Log In' menu ===> Brought to Log In page,2018-05-16 14:59:40,2018-05-16 14:59:41,0.868s,PASSED
+setText,Chrome 66.0.3359.139,Log in with newly created user,2018-05-16 14:59:41,2018-05-16 14:59:41,0.332s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,Get Text to modify xpath for Edit button (in case Client wants to update Status of User by admin),2018-05-16 14:59:41,2018-05-16 14:59:41,0.041s,PASSED
+setText,Chrome 66.0.3359.139,Enter password for new User,2018-05-16 14:59:41,2018-05-16 14:59:41,0.190s,PASSED
+click,Chrome 66.0.3359.139,Click Login button to log Home Page,2018-05-16 14:59:41,2018-05-16 14:59:42,0.719s,PASSED
+verifyElementText,Chrome 66.0.3359.139,Verify error message is displayed,2018-05-16 14:59:42,2018-05-16 14:59:42,0.060s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call 'Common TC to Login' to Login by Admin account ===> \t\r\nBrought to My Profile page,2018-05-16 14:59:42,2018-05-16 14:59:45,2.362s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Navigate to Administration Panel page (http://13.250.134.32/subrion/panel/),2018-05-16 14:59:45,2018-05-16 14:59:47,2.672s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-16 14:59:47,2018-05-16 14:59:47,0.014s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-16 14:59:47,2018-05-16 14:59:58,10.422s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Members' menu of Main Menu,2018-05-16 14:59:58,2018-05-16 14:59:58,0.104s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Members' menu of Sub Menu  ===> Brought to Members page,2018-05-16 14:59:58,2018-05-16 14:59:59,1.628s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,Wait Page Load,2018-05-16 14:59:59,2018-05-16 14:59:59,0.078s,PASSED
+"Statement - xpath_string = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""//div[contains(text(),'"", return_username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]""])",Chrome 66.0.3359.139,Click on Edit icon of created member,2018-05-16 14:59:59,2018-05-16 14:59:59,0.013s,PASSED
+Statement - btn_edit = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 66.0.3359.139,,2018-05-16 14:59:59,2018-05-16 14:59:59,0.004s,PASSED
+"Statement - btn_edit.addProperty(""xpath"", EQUALS, xpath_string)",Chrome 66.0.3359.139,,2018-05-16 14:59:59,2018-05-16 14:59:59,0.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-16 14:59:59,2018-05-16 15:00:03,3.055s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,Select 'Active' status,2018-05-16 15:00:03,2018-05-16 15:00:03,0.205s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Save' button,2018-05-16 15:00:03,2018-05-16 15:00:04,1.328s,PASSED
+click,Chrome 66.0.3359.139,Log out of the system ===> \tNavigate to Home Page,2018-05-16 15:00:04,2018-05-16 15:00:07,2.541s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,Navigate to Home Page,2018-05-16 15:00:07,2018-05-16 15:00:07,0.562s,PASSED
+callTestCase,Chrome 66.0.3359.139,Log in with activated user,2018-05-16 15:00:07,2018-05-16 15:00:10,2.775s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-16 15:00:10,2018-05-16 15:00:11,1.079s,PASSED

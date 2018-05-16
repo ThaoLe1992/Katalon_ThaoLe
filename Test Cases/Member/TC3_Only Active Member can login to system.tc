@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_Only Active Member can login to system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41663ec3-1489-497c-99ef-8bc54580d6db</testCaseGuid>
+   <variable>
+      <defaultValue>'Password01'</defaultValue>
+      <description></description>
+      <id>46c6fab5-567f-439e-84fe-410b01fcb48a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'162'</defaultValue>
+      <description></description>
+      <id>591f5ecb-802b-43d9-ad7c-51e7582c3055</id>
+      <masked>false</masked>
+      <name>random_username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thao'</defaultValue>
+      <description></description>
+      <id>2105faf7-892b-4193-8e2b-9c0300a1a83d</id>
+      <masked>false</masked>
+      <name>fullname</name>
+   </variable>
+</TestCaseEntity>

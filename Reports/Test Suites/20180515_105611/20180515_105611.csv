@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 10:56:12,2018-05-15 10:57:05,52.950s,FAILED
+,,,,,,
+Test Cases/TC1/TC1,Chrome 66.0.3359.139,,2018-05-15 10:56:13,2018-05-15 10:56:30,17.109s,FAILED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-15 10:56:13,2018-05-15 10:56:30,16.812s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 10:56:30,2018-05-15 10:57:04,34.485s,ERROR
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 10:56:30,2018-05-15 10:56:42,12.249s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:56:42,2018-05-15 10:56:43,1.121s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:56:43,2018-05-15 10:56:44,0.822s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 10:56:44,2018-05-15 10:56:44,0.151s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,,2018-05-15 10:56:44,2018-05-15 10:56:44,0.052s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 10:56:44,2018-05-15 10:56:44,0.123s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:56:44,2018-05-15 10:56:45,0.883s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-15 10:56:45,2018-05-15 10:56:45,0.083s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-15 10:56:45,2018-05-15 10:56:48,3.122s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 10:56:48,2018-05-15 10:56:52,3.070s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 10:56:52,2018-05-15 10:56:52,0.027s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-15 10:56:52,2018-05-15 10:57:02,10.407s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:57:02,2018-05-15 10:57:02,0.081s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 10:57:02,2018-05-15 10:57:04,2.015s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 10:57:04,2018-05-15 10:57:04,0.067s,PASSED
+"Statement - edit_xpath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""//div[contains(text(),'"", username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]""])",Chrome 66.0.3359.139,,2018-05-15 10:57:04,2018-05-15 10:57:04,0.009s,PASSED
+Statement - myNewObject = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 66.0.3359.139,,2018-05-15 10:57:04,2018-05-15 10:57:04,0.005s,PASSED
+"Statement - myNewObject.addProperty(""xpath"", EQUALS, edit_xpath)",Chrome 66.0.3359.139,,2018-05-15 10:57:04,2018-05-15 10:57:04,0.001s,PASSED

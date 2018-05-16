@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>wait_loader</name>
+   <tag></tag>
+   <elementGuidId>bb68b66a-3e70-442c-93be-9c1b722a4a84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ip</name>
+      <type>Main</type>
+      <value>js-ajax-loader-status</value>
+   </webElementProperties>
+</WebElementEntity>

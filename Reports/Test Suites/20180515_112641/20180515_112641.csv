@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 11:26:43,2018-05-15 11:28:07,1m - 24.078s,FAILED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 11:26:43,2018-05-15 11:27:25,42.522s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 11:26:43,2018-05-15 11:26:56,13.004s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:26:56,2018-05-15 11:26:57,1.001s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:26:57,2018-05-15 11:26:57,0.198s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,,2018-05-15 11:26:57,2018-05-15 11:26:57,0.050s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:26:57,2018-05-15 11:26:58,0.166s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:26:58,2018-05-15 11:26:59,1.291s,PASSED
+verifyElementText,Chrome 66.0.3359.139,,2018-05-15 11:26:59,2018-05-15 11:26:59,0.053s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-15 11:26:59,2018-05-15 11:27:01,2.368s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 11:27:01,2018-05-15 11:27:03,1.259s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 11:27:03,2018-05-15 11:27:03,0.036s,PASSED
+waitForElementNotVisible,Chrome 66.0.3359.139,,2018-05-15 11:27:03,2018-05-15 11:27:13,10.392s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:13,2018-05-15 11:27:13,0.105s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:13,2018-05-15 11:27:17,4.154s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-15 11:27:17,2018-05-15 11:27:17,0.071s,PASSED
+"Statement - edit_xpath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""//div[contains(text(),'"", return_username, ""')]/parent::td/following-sibling::td[9]/div/i[@title=""Edit""]""])",Chrome 66.0.3359.139,,2018-05-15 11:27:17,2018-05-15 11:27:17,0.017s,PASSED
+Statement - myNewObject = new com.kms.katalon.core.testobject.TestObject(TheObjectName),Chrome 66.0.3359.139,,2018-05-15 11:27:17,2018-05-15 11:27:17,0.009s,PASSED
+"Statement - myNewObject.addProperty(""xpath"", EQUALS, edit_xpath)",Chrome 66.0.3359.139,,2018-05-15 11:27:17,2018-05-15 11:27:17,0.009s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:17,2018-05-15 11:27:19,1.996s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-15 11:27:19,2018-05-15 11:27:20,0.196s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:20,2018-05-15 11:27:21,1.472s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:21,2018-05-15 11:27:22,1.311s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-15 11:27:22,2018-05-15 11:27:23,0.598s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:27:23,2018-05-15 11:27:23,0.153s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-15 11:27:23,2018-05-15 11:27:23,0.122s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-15 11:27:23,2018-05-15 11:27:24,1.206s,PASSED
+closeBrowser,Chrome 66.0.3359.139,,2018-05-15 11:27:24,2018-05-15 11:27:25,0.957s,PASSED
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 11:27:25,2018-05-15 11:28:06,40.058s,FAILED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 11:27:25,2018-05-15 11:28:05,40.015s,FAILED

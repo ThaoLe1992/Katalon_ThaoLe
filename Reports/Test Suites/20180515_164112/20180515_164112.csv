@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 16:41:13,2018-05-15 16:41:28,15.077s,PASSED
+,,,,,,
+Test Cases/TC1/TC1 - Copy,Chrome 66.0.3359.139,,2018-05-15 16:41:13,2018-05-15 16:41:28,14.768s,PASSED
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Login,2018-05-15 16:41:14,2018-05-15 16:41:27,13.437s,PASSED
+closeBrowser,Chrome 66.0.3359.139,Close browser,2018-05-15 16:41:27,2018-05-15 16:41:28,0.912s,PASSED

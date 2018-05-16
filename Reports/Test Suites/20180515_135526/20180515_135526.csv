@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suites,Chrome 66.0.3359.139,,2018-05-15 13:55:28,2018-05-15 13:55:48,20.469s,ERROR
+,,,,,,
+Test Cases/TC1/TC3,Chrome 66.0.3359.139,,2018-05-15 13:55:28,2018-05-15 13:55:47,18.777s,ERROR
+callTestCase,Chrome 66.0.3359.139,Call Common TC to Sign up,2018-05-15 13:55:28,2018-05-15 13:55:45,16.482s,PASSED
+click,Chrome 66.0.3359.139,Click on 'Log In' menu ===> Brought to Log In page,2018-05-15 13:55:45,2018-05-15 13:55:46,0.847s,PASSED
+setText,Chrome 66.0.3359.139,Log in with newly created user,2018-05-15 13:55:46,2018-05-15 13:55:46,0.197s,PASSED
+Statement - return_username = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object_Login/input_username)),Chrome 66.0.3359.139,Get Text to modify xpath for Edit button (in case Client wants to update Status of User by admin),2018-05-15 13:55:46,2018-05-15 13:55:46,0.039s,PASSED
+setText,Chrome 66.0.3359.139,Enter password for new User,2018-05-15 13:55:46,2018-05-15 13:55:46,0.119s,PASSED
+click,Chrome 66.0.3359.139,Click Login button to log Home Page,2018-05-15 13:55:46,2018-05-15 13:55:47,0.761s,PASSED
+verifyElementText,Chrome 66.0.3359.139,Verify error message is displayed,2018-05-15 13:55:47,2018-05-15 13:55:47,0.033s,PASSED
